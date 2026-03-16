@@ -13,6 +13,13 @@ public class MataKuliahMain9 {
         mk1.tambahJam(2);
         mk1.kurangiJam(1);
         mk1.tampilkanInformasi();
-        
+
+        MataKuliah9 mk2 = new MataKuliah9("1543", "Pancasila", 4, 12);
+        mk2.tambahJam(2);
+        mk2.tampilkanInformasi();
+
+        MataKuliah9 mk3 = new MataKuliah9("5643", "Basis Data", 3,9);
+        mk3.kurangiJam(4);
+        mk3.tampilkanInformasi();
     }
 }
