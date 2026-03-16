@@ -13,5 +13,6 @@ public class MataKuliahMain9 {
         mk1.tambahJam(2);
         mk1.kurangiJam(1);
         mk1.tampilkanInformasi();
+        
     }
 }
