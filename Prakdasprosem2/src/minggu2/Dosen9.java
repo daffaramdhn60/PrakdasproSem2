@@ -1,6 +1,7 @@
 package minggu2;
 
 public class Dosen9 {
+        
     String idDosen;
     String nama;
     boolean statusAktif;
