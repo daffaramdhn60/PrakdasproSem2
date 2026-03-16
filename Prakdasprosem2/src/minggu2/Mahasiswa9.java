@@ -1,8 +1,7 @@
 package minggu2;
 
 public class Mahasiswa9 {
-    public static void main(String[] args) {
-        
+
         String nama;
         String nim;
         String kelas;
@@ -50,4 +49,4 @@ public class Mahasiswa9 {
             }
         }
     }
-}
+
