@@ -11,7 +11,7 @@
 
 Hasil dari percobaan 1 :
 
-![percobaan 1](image/percobaan1.png)
+![percobaan 1](![alt text](image.png))
 
 ### Pertanyaan Percobaan 1 :
 1. Sebutkan dua karakteristik class atau object! 
@@ -28,7 +28,7 @@ Hasil dari percobaan 1 :
 
 4. Perhatikan method updateIpk() yang terdapat di dalam class Mahasiswa. Modifikasi isi method tersebut sehingga IPK yang dimasukkan valid yaitu terlebih dahulu dilakukan pengecekan apakah IPK yang dimasukkan di dalam rentang 0.0 sampai dengan 4.0 (0.0 <= IPK <= 4.0). Jika IPK tidak pada rentang tersebut maka dikeluarkan pesan: "IPK tidak valid. Harus antara 0.0 dan 4.0". 
 
-![pertanyaan 4](image/per1_pertanyaan.png)
+![pertanyaan 4](![alt text](image-1.png))
 
 5. Jelaskan bagaimana cara kerja method nilaiKinerja() dalam mengevaluasi kinerja mahasiswa, kriteria apa saja yang digunakan untuk menentukan nilai kinerja tersebut, dan apa yang dikembalikan (di-return-kan) oleh method nilaiKinerja() tersebut? 
 
@@ -38,13 +38,13 @@ Hasil dari percobaan 1 :
 
 Hasil dari percobaan 2 :
 
-![percobaan 2](image/percobaan2.png)
+![percobaan 2](![alt text](image-2.png))
 
 ### Pertanyaan Percobaan 2
 1. Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
 
     - nama object yang dihasilkan adalah mhs1
-![pertanyaan 1](image/per2_pertanyaan.png)
+![pertanyaan 1](![alt text](image-3.png))
 
 2. Bagaimana cara mengakses atribut dan method dari suatu objek? 
 
@@ -58,13 +58,13 @@ Hasil dari percobaan 2 :
 
 Hasil dari percobaan 3 :
 
-![percobaan 3](image/percobaan3.png)
+![percobaan 3](![alt text](image-4.png))
 
 ### Pertanyaan Percobaan 3
 1. Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter! Apa nama object yang dihasilkan?
 
     - Nama object yang dihasilkan adalah mhs2
-![pertanyaan 1](image/per3_pertanyaan.png)
+![pertanyaan 1](i![alt text](image-5.png))
 
 2. Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program berikut? 
 
@@ -73,7 +73,7 @@ Hasil dari percobaan 3 :
 3. Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian! 
 
     - Program error karena object new Mahasiswa() dibuat tanpa parameter dan konstruktor default telah tidak tersedia di class. Sehingga ketika pemanggilan program tidak dapat menemukan konstruktor yg cocok
-![pertanyaan 3](image/per3_pertanyaan3.png)
+![pertanyaan 3](![alt text](image-6.png))
 
 4. Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!
 
@@ -81,7 +81,7 @@ Hasil dari percobaan 3 :
 
 5.  Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor berparameter dari class Mahasiswa! 
 
-![pertanyaan 5](image/per3_pertanyaan5.png)
+![pertanyaan 5](![alt text](image-7.png))
 
 ## 2.4 Latihan Praktikum
 
@@ -89,9 +89,9 @@ Hasil dari percobaan 3 :
 
 Hasil dari latihan 1 :
 
-![latihan 1](image/latihan1.png)
+![latihan 1](![alt text](image-8.png))
 
 ### Latihan 2
 
 Hasil dari latihan 2 :
-![latihan 2](image/latihan2.png)
+![latihan 2](![alt text](image-9.png))
