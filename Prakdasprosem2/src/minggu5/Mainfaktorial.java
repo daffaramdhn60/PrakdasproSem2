@@ -11,9 +11,7 @@ public class Mainfaktorial {
 
         Faktorial fk = new Faktorial();
 
-        System.out.println("Nilai faktorial" + nilai + 
-            "menggunakan BF:" + fk.FaktorialBf (nilai));
-        System.out.println("Nilai faktorial" + nilai + 
-            "menggunakan DC:" + fk.faktorialDC (nilai));
+        System.out.println("Nilai faktorial" + nilai + "menggunakan BF:" + fk.FaktorialBf (nilai));
+        System.out.println("Nilai faktorial" + nilai + "menggunakan DC:" + fk.faktorialDC (nilai));
     }
 }
