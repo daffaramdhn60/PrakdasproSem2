@@ -3,7 +3,7 @@
 | NIM | 254107020033 |
 | Nama | Daffa Ramadhan  |
 | Kelas | TI - 1F |
-| Repository | [link] https://github.com/daffaramdhn60/PrakdasproSem2/tree/main/Prakdasprosem2/src/minggu6
+| Repository | [link] https://github.com/daffaramdhn60/PrakdasproSem2/blob/main/Prakdasprosem2/src/minggu7/report.md
 
 ## JOBSHEET Studi Kasus 1 
 ``` java
