@@ -1,9 +1,9 @@
-package minggu6;
+package minggu7;
 
 import java.util.Scanner;
 
 public class mahasiswademo9 {
-        public static void main(String[] args) {
+     public static void main(String[] args) {
             //mahasiswaberprestasi9 List = new mahasiswaberprestasi9();
            Scanner daffa9 = new Scanner(System.in);
             mahasiswaberprestasi9 List = new mahasiswaberprestasi9();
@@ -69,5 +69,21 @@ public class mahasiswademo9 {
             int pss = (int)posisi;
             List.tampilposisi(cari, pss);
             List.tampildatasearch(cari, pss);
+
+            //melakukan pencarian data Binary
+            System.out.println("----------------------------------------------");
+            System.out.println("Pencarian Data");
+            System.out.println("----------------------------------------------");
+            System.out.println("masukkan ipk mahasiswa yang dicari: ");
+            System.out.print("IPK: ");
+            String inputcari2 = daffa9.nextLine().replace(",", ".");
+            double Cari = Double.parseDouble(inputcari2);
+             System.out.println("----------------------------------------------");
+             System.out.println("menggunakan binary search");
+             System.out.println("----------------------------------------------");
+             double posisi2 = List.findBinarySearch(cari, 0, JmlMhs-1);
+            int pss2= (int)posisi2;
+            List.tampilposisi(cari, pss2);
+            List.tampildatasearch(cari, pss2);
         }
-    }
+}

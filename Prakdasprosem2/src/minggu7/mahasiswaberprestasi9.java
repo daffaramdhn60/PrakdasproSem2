@@ -1,4 +1,4 @@
-package minggu6;
+package minggu7;
 
 public class mahasiswaberprestasi9 {
     mahasiswa9 [] ListMhs = new mahasiswa9[5];
@@ -85,5 +85,22 @@ public class mahasiswaberprestasi9 {
             else{
                 System.out.println("data mahasiswa dengan ipk " +x+ "tidak ditemukan");
         }
+    }
+    int findBinarySearch(double cari, int left, int right){
+        int mid;
+        if (right>=left){
+            mid = ( left+right)/2;
+            if (cari == ListMhs[mid].IPK){
+                return(mid);
+            }
+            else if (ListMhs[mid].IPK>cari){
+                return findBinarySearch(cari, left, mid-1);
+            }
+            else{
+                return findBinarySearch(cari, mid+1, right);
+            }
+
+        }
+        return -1;
     }
 }

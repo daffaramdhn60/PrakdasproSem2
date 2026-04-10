@@ -1,7 +1,7 @@
 |  | Praktikum Algoritma dan Struktur Data |
 |--|--|
-| NIM | 25407020237 |
-| Nama | Muhammad Akbar Raffi Putra Susanto  |
+| NIM | 254107020033 |
+| Nama | Daffa Ramadhan  |
 | Kelas | TI - 1F |
 | Repository | [link] https://github.com/daffaramdhn60/PrakdasproSem2/tree/main/Prakdasprosem2/src/minggu6
 
