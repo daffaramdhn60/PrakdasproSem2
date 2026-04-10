@@ -3,7 +3,7 @@
 | NIM | 25407020237 |
 | Nama | Muhammad Akbar Raffi Putra Susanto  |
 | Kelas | TI - 1F |
-| Repository | [link] https://github.com/254107020237-crypto/PraktikumASD
+| Repository | [link] https://github.com/daffaramdhn60/PrakdasproSem2/tree/main/Prakdasprosem2/src/minggu6
 
 # JOBSHEET 5
 
