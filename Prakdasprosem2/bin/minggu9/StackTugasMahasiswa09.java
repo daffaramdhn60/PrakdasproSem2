@@ -1,4 +1,4 @@
-package minggu9;
+
 
 public class StackTugasMahasiswa09 {
     Mahasiswa09 [] stack;
