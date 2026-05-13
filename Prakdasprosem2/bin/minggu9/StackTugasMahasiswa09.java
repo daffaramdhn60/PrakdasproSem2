@@ -1,7 +1,5 @@
 package minggu9;
 
-import minggu1.Mahasiswa09;
-
 public class StackTugasMahasiswa09 {
     Mahasiswa09 [] stack;
     int top;
