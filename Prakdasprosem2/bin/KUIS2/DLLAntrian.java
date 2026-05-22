@@ -1,10 +1,10 @@
-package minggu12;
+package KUIS2;
 
 public class DLLAntrian {
     NodeAntrian head;
     NodeAntrian tail;
     int size;
-    int nomorUrut; // untuk auto-increment nomor antrian
+    int nomorUrut; 
  
     public DLLAntrian() {
         head = null;
@@ -17,7 +17,6 @@ public class DLLAntrian {
         return head == null;
     }
  
-    // Tambah antrian di akhir (FIFO)
     public void tambahAntrian(String namaPembeli, String noHp) {
         nomorUrut++;
         Pembeli pembeli = new Pembeli(nomorUrut, namaPembeli, noHp);
@@ -34,7 +33,6 @@ public class DLLAntrian {
         System.out.println("Antrian berhasil ditambahkan dengan nomor: " + nomorUrut);
     }
  
-    // Cetak seluruh antrian
     public void cetakAntrian() {
         if (isEmpty()) {
             System.out.println("Antrian kosong.");
@@ -54,8 +52,6 @@ public class DLLAntrian {
         }
     }
  
-    // Hapus antrian berdasarkan nomor antrian, return nama pembeli
-    // Mengembalikan objek Pembeli yang dihapus, null jika tidak ditemukan
     public Pembeli hapusAntrian(int noAntrian) {
         if (isEmpty()) {
             System.out.println("Antrian kosong.");
@@ -74,7 +70,6 @@ public class DLLAntrian {
  
         Pembeli pembeli = current.data;
  
-        // Hapus node
         if (current == head && current == tail) {
             head = tail = null;
         } else if (current == head) {

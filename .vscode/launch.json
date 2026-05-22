@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://github.com/daffaramdhn60/PrakdasproSem2
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RoyalDelishMain",
+            "request": "launch",
+            "mainClass": "KUIS2.RoyalDelishMain",
+            "projectName": "PrakdasproSem2_eb053e1b"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
