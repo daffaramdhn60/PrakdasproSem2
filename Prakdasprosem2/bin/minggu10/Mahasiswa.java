@@ -1,4 +1,4 @@
-package Prakdasprosem2.bin.minggu10;
+package minggu10;
 
 public class Mahasiswa {
     String nim;

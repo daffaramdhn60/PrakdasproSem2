@@ -1,4 +1,4 @@
-package Prakdasprosem2.bin.minggu4;
+package minggu4;
 
 import java.util.Scanner;
 

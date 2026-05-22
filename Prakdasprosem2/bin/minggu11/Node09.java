@@ -1,4 +1,4 @@
-package Prakdasprosem2.bin.minggu11;
+package minggu11;
 
 public class Node09 {
       Mahasiswa09 data;
