@@ -15,7 +15,7 @@ public class DoubleLinkedList {
     
         // tambah depan
         public void addFirst(Mahasiswa09 data) {
-            Node09 newNode = new Node(null, data, null);
+            Node09 newNode = new Node09(null, data, null);
     
             if (isEmpty()) {
                 head = tail = newNode;
@@ -28,7 +28,7 @@ public class DoubleLinkedList {
     
         // tambah belakang
         public void addLast(Mahasiswa09 data) {
-            Node09 newNode = new Node(null, data, null);
+            Node09 newNode = new Node09(null, data, null);
     
             if (isEmpty()) {
                 head = tail = newNode;
@@ -46,7 +46,7 @@ public class DoubleLinkedList {
             while (current != null) {
                 if (current.data.nim.equals(keyNim)) {
     
-                    Node09 newNode = new Node(current, data, current.next);
+                    Node09 newNode = new Node09(current, data, current.next);
     
                     if (current.next != null) {
                         current.next.prev = newNode;
