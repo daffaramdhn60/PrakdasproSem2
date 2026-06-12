@@ -21,7 +21,7 @@ public class LinkedListRekapAntrian {
     public void tampilRekap() {
         NodeRekapAntrian current = head;
 
-        System.out.println("Rekap Antrian per Jam:");
+        System.out.println("rekap atrian per jam:");
         while (current != null) {
             System.out.println(
                 "Jam " + current.jamAntri +
@@ -46,7 +46,7 @@ public class LinkedListRekapAntrian {
             current = current.next;
         }
 
-        System.out.println("\nJam dengan antrian terbanyak:");
+        System.out.println("\njam dengan antrian terbanyak:");
         System.out.println(
             "Jam " + max.jamAntri +
             " dengan " + max.jumlah + " antrian"
