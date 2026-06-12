@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedListRekapAntrianMain",
+            "request": "launch",
+            "mainClass": "KUIS2.LinkedListRekapAntrianMain",
+            "projectName": "PrakdasproSem2_eb053e1b"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",

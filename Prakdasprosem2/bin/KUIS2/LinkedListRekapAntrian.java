@@ -30,4 +30,26 @@ public class LinkedListRekapAntrian {
             current = current.next;
         }
     }
+    public void tampilJamTerbanyak() {
+         if (head == null) {
+            System.out.println("data kosong");
+            return;
+        }
+
+        NodeRekapAntrian max = head;
+        NodeRekapAntrian current = head.next;
+
+        while (current != null) {
+            if (current.jumlah > max.jumlah) {
+                max = current;
+            }
+            current = current.next;
+        }
+
+        System.out.println("\nJam dengan antrian terbanyak:");
+        System.out.println(
+            "Jam " + max.jamAntri +
+            " dengan " + max.jumlah + " antrian"
+        );
+    }
 }
