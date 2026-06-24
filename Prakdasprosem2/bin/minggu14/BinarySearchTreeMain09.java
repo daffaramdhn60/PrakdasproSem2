@@ -1,6 +1,5 @@
 package minggu14;
 
-
 public class BinarySearchTreeMain09 {
     public static void main(String[] args) {
 
