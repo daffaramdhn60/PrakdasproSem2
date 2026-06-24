@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinarySearchTreeMain09",
+            "request": "launch",
+            "mainClass": "minggu14.BinarySearchTreeMain09",
+            "projectName": "PrakdasproSem2_eb053e1b"
+        },
+        {
+            "type": "java",
             "name": "LinkedListRekapAntrianMain",
             "request": "launch",
             "mainClass": "KUIS2.LinkedListRekapAntrianMain",

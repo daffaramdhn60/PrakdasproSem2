@@ -1,5 +1,7 @@
 package minggu14;
 
+import minggu6.mahasiswa9;
+
 public class BinaryTree09 {
     Node09 root;
 
